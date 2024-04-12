@@ -4,6 +4,7 @@ import './App.css';
 
 
 function App() {
+    
   return (
     <div className="App">
         <strong>Gerard Richter Art</strong>
