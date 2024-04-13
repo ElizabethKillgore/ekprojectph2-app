@@ -1,6 +1,8 @@
 import App from "./App"
 import Home from "./pages/Home"
 import ErrorPage from "./pages/ErrorPage"
+import Impressionist from "./pages/Impressionist"
+import Abstract from "./pages/Abstract"
 
 const routes = [
     {
@@ -9,9 +11,18 @@ const routes = [
     errorElement: <ErrorPage />,
     children: [
         {
-            path: "/",
+            path: "/home",
             element: <Home />
-        }      
+        },
+        {
+            path: "/impressionist",
+            element: <Impressionist />
+        },
+        {
+            path: "abstract",
+            element: <Abstract />
+        }
+         
     ]
 
     

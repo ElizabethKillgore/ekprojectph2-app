@@ -1,86 +1,53 @@
 {
-    "artworks": [
-    {
-      "_score": 223.10283,
-      "date_display": "1965",
-      "id": 147003,
-      "image_id": "e7f4caac-6a16-e332-9a51-34f986d4b451",
-      "title": "Woman Descending the Staircase (Frau die Treppe herabgehend)",
-      "main_reference_number": "1997.176"
-    },
-    {
-      "_score": 177.37355,
-      "date_display": "1989",
-      "id": 146994,
-      "image_id": "b6647a72-7dd9-6ebe-779c-bec46e0901d8",
-      "title": "Ice (1)",
-      "main_reference_number": "1997.167"
-    },
-    {
-      "_score": 175.3873,
-      "date_display": "1989",
-      "id": 146995,
-      "image_id": "07783936-58fb-859d-9350-fb600510177a",
-      "title": "Ice (2)",
-      "main_reference_number": "1997.168"
-    },
-    {
-      "_score": 172.63742,
-      "date_display": "1964",
-      "id": 93344,
-      "image_id": "5ac548fe-ae9c-f234-e7e0-e0a4e6dac669",
-      "title": "Christa and Wolfi",
-      "main_reference_number": "1987.276"
-    },
-    {
-      "_score": 170.31479,
-      "date_display": "1967",
-      "id": 147002,
-      "image_id": "38384f8b-a065-0064-9eb7-c47e57b63b38",
-      "title": "Mrs. Wolleh with Children (Frau Wolleh mit Kindern)",
-      "main_reference_number": "1997.175"
-    },
-    {
-      "_score": 170.18298,
-      "date_display": "1982",
-      "id": 146999,
-      "image_id": "151932ad-188a-1a3f-9fcc-922dad1564a7",
-      "title": "Candle (Kerze)",
-      "main_reference_number": "1997.172"
-    },
-    {
-      "_score": 164.48772,
-      "date_display": "1989",
-      "id": 146997,
-      "image_id": "1cd7aea0-f7a7-b566-52c9-0407bf5c442e",
-      "title": "Ice (4)",
-      "main_reference_number": "1997.170"
-    },
-    {
-      "_score": 162.75581,
-      "date_display": "1982",
-      "id": 100227,
-      "image_id": "de1e2f41-8bbc-4530-7d63-e9cbcae88de7",
-      "title": "Two Candles (Zwei Kerzen)",
-      "main_reference_number": "1983.207"
-    },
-    {
-      "_score": 159.83066,
-      "date_display": "1993",
-      "id": 147001,
-      "image_id": "57742936-071c-1851-fa58-eb7b99b943d9",
-      "title": "Flowers (Blumen)",
-      "main_reference_number": "1997.174"
-    },
-    {
-      "_score": 159.82272,
-      "date_display": "1969",
-      "id": 146998,
-      "image_id": "9cfecb3d-7496-1b54-5650-25876a5decfe",
-      "title": "Little Landscape at the Seaside (Kleine Landschaft am Meer)",
-      "main_reference_number": "1997.171"
-    }
-  ]
+    "impressionistPaintings": [
+        {
+            "id": 1,
+            "artist": "a",
+            "title": "b",
+            "date": 1900,
+            "image_url": "https://www.artic.edu/iiif/2/1adf2696-8489-499b-cad2-821d7fde4b33/full/843,/0/default.jpg"  
+        }, 
+        {
+            "id": 2,
+            "artist": "a",
+            "title": "d",
+            "date": 1900 
+        },
+        {
+            "id": 3,
+            "artist": "b",
+            "title": "d",
+            "date": 1900 
+        }
+    ],
+
+    "abstractPaintings": [
+        {
+            "id": 1,
+            "artist": "c",
+            "title": "d",
+            "date": 1900  
+        },
+        {
+            "id": 2,
+            "artist": "c",
+            "title": "e",
+            "date": 1800 
+        }
+    ],
+
+    "artists": [
+        {
+            "id": 1,
+            "name": "Bob",
+            "paintings": ["x", "y", "z"]
+        },
+        {
+            "id": 2,
+            "name": "Alice",
+            "paintings": ["x", "y", "z"]
+        }
+    ]
 
 }
 
