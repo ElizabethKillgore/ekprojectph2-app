@@ -1,13 +1,13 @@
 import React from 'react'
 import { Outlet, useOutletContext  } from "react-router-dom"
 
-function Home() {
+function Artists() {
 
    return ( 
    <div>
-        Home
+       Artists
     </div>
    )
 }
 
-export default Home
+export default Artists

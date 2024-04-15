@@ -1,38 +1,49 @@
 {
-    "impressionistPaintings": [
+    "impressionists": [
         {
             "id": 1,
-            "artist": "a",
-            "title": "b",
-            "date": 1900,
-            "image_url": "https://www.artic.edu/iiif/2/1adf2696-8489-499b-cad2-821d7fde4b33/full/843,/0/default.jpg"  
+            "artist": "Berthe Morisot",
+            "title": "Woman At Her Toilette",
+            "date": 1880,
+            "image_url": "https://www.artic.edu/iiif/2/78c80988-6524-cec7-c661-a4c0a706d06f/full/843,/0/default.jpg"  
         }, 
         {
             "id": 2,
             "artist": "a",
-            "title": "d",
-            "date": 1900 
+            "title": "The Millinery Shop",
+            "date": 1900,
+            "image_url": "https://www.artic.edu/iiif/2/6f513908-03cc-b974-633b-adfce56b7936/full/843,/0/default.jpg"  
         },
         {
             "id": 3,
             "artist": "b",
-            "title": "d",
-            "date": 1900 
+            "title": "Seated Boy",
+            "date": 1900,
+            "image_url": "https://www.artic.edu/iiif/2/f2a2c17c-8eee-a1b8-cfe4-71bb59f3798e/full/843,/0/default.jpg"
         }
     ],
 
-    "abstractPaintings": [
+    "abstracts": [
         {
             "id": 1,
-            "artist": "c",
-            "title": "d",
-            "date": 1900  
+            "artist": "Gerhard Richter",
+            "title": "Ice (1)",
+            "date": 1900,
+            "image_url": "https://www.artic.edu/iiif/2/b6647a72-7dd9-6ebe-779c-bec46e0901d8/full/843,/0/default.jpg"  
         },
         {
             "id": 2,
             "artist": "c",
             "title": "e",
-            "date": 1800 
+            "date": 1800,
+            "image_url": "https://www.artic.edu/iiif/2/f2a2c17c-8eee-a1b8-cfe4-71bb59f3798e/full/843,/0/default.jpg"
+        },
+        {
+            "id": 3,
+            "artist": "c",
+            "title": "e",
+            "date": 1800,
+            "image_url": "https://www.artic.edu/iiif/2/f2a2c17c-8eee-a1b8-cfe4-71bb59f3798e/full/843,/0/default.jpg" 
         }
     ],
 

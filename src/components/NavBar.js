@@ -4,14 +4,7 @@ import "./NavBar.css"
 function NavBar() {
     return (
         <nav> 
-            <NavLink
-             to="/home"
-             className="navbar"
-             >
-             Home
-            </NavLink>
-            <br>
-            </br>
+            
             <NavLink
              to="/impressionist"
              className="navbar"
@@ -25,8 +18,15 @@ function NavBar() {
              className="navbar"
              >
              Abstract
-             </NavLink>
-        
+            </NavLink>
+            <br>
+            </br>
+            <NavLink
+             to="/artists"
+             className="navbar"
+             >
+             Artists
+            </NavLink>   
         
         </nav>
     )
