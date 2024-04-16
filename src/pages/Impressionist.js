@@ -1,3 +1,4 @@
+
 import { useState, useEffect } from 'react'
 import { useParams } from "react-router-dom"
 import { Outlet, useOutletContext  } from "react-router-dom"
@@ -6,7 +7,7 @@ import ImpressionistContainer from '../components/ImpressionistContainer'
 function Impressionist() {
 
     const impressionists = useOutletContext()
-    
+    console.log(impressionists)
     // const [impressionists, setImpressionists] = useState([])
     // const params = useParams
     // const impressionistId = params.id
@@ -26,7 +27,7 @@ function Impressionist() {
      
         <main> 
             <h3>Impressionist Paintings</h3>
-             <Outlet />
+             {/* <Outlet context={impressionists}/> */}
              {impressionistInfo}    
         </main>
    )

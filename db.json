@@ -9,17 +9,17 @@
         }, 
         {
             "id": 2,
-            "artist": "a",
+            "artist": "Edgar Degas",
             "title": "The Millinery Shop",
-            "date": 1900,
+            "date": 1886,
             "image_url": "https://www.artic.edu/iiif/2/6f513908-03cc-b974-633b-adfce56b7936/full/843,/0/default.jpg"  
         },
         {
             "id": 3,
-            "artist": "b",
-            "title": "Seated Boy",
-            "date": 1900,
-            "image_url": "https://www.artic.edu/iiif/2/f2a2c17c-8eee-a1b8-cfe4-71bb59f3798e/full/843,/0/default.jpg"
+            "artist": "Claude Monet",
+            "title": "Cliff Walk at Pourville",
+            "date": 1882,
+            "image_url": "https://www.artic.edu/iiif/2/b0effb1c-ff23-bbaa-f809-9fd94e31c1a0/full/843,/0/default.jpg"
         }
     ],
 
@@ -27,23 +27,23 @@
         {
             "id": 1,
             "artist": "Gerhard Richter",
-            "title": "Ice (1)",
-            "date": 1900,
-            "image_url": "https://www.artic.edu/iiif/2/b6647a72-7dd9-6ebe-779c-bec46e0901d8/full/843,/0/default.jpg"  
+            "title": "Ice (2)",
+            "date": 1989,
+            "image_url": "https://www.artic.edu/iiif/2/07783936-58fb-859d-9350-fb600510177a/full/843,/0/default.jpg"  
         },
         {
             "id": 2,
-            "artist": "c",
-            "title": "e",
-            "date": 1800,
-            "image_url": "https://www.artic.edu/iiif/2/f2a2c17c-8eee-a1b8-cfe4-71bb59f3798e/full/843,/0/default.jpg"
+            "artist": "Vasily Kandinsky",
+            "title": "Painting with Troika",
+            "date": 1911,
+            "image_url": "https://www.artic.edu/iiif/2/08da4ff3-3bf6-9bbd-230c-492382034f3d/full/843,/0/default.jpg"
         },
         {
             "id": 3,
-            "artist": "c",
-            "title": "e",
-            "date": 1800,
-            "image_url": "https://www.artic.edu/iiif/2/f2a2c17c-8eee-a1b8-cfe4-71bb59f3798e/full/843,/0/default.jpg" 
+            "artist": "Paul Klee",
+            "title": "Sunset",
+            "date": 1930,
+            "image_url": "https://www.artic.edu/iiif/2/92da7102-0562-f4da-55f9-1d29828b20d7/full/843,/0/default.jpg" 
         }
     ],
 
@@ -56,7 +56,12 @@
         {
             "id": 2,
             "name": "Alice",
-            "paintings": ["x", "y", "z"]
+            "paintings": ["a", "b", "c"]
+        },
+        {
+            "id": 3,
+            "name": "Jim",
+            "paintings": ["d", "b", "c"]
         }
     ]
 

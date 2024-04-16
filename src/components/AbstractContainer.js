@@ -1,9 +1,9 @@
 import { Outlet, useOutletContext } from "react-router-dom"
 
-function AbstractContainer( {abstract }) {
-    const abstracts = useOutletContext()
+function AbstractContainer( {abstract}) {
+    // const abstracts = useOutletContext()
 
-    console.log(abstracts)
+    // console.log(abstracts)
 
     return (
         <article>
@@ -14,12 +14,9 @@ function AbstractContainer( {abstract }) {
                       width="100%" height="100%"
                 />
             </div>
-           <Outlet context={abstracts} />
+           {/* <Outlet context={abstracts} /> */}
         </article>
     )
-
-
-
 
 
 }
