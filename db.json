@@ -45,26 +45,7 @@
             "date": 1930,
             "image_url": "https://www.artic.edu/iiif/2/92da7102-0562-f4da-55f9-1d29828b20d7/full/843,/0/default.jpg" 
         }
-    ],
-
-    "artists": [
-        {
-            "id": 1,
-            "name": "Bob",
-            "paintings": ["x", "y", "z"]
-        },
-        {
-            "id": 2,
-            "name": "Alice",
-            "paintings": ["a", "b", "c"]
-        },
-        {
-            "id": 3,
-            "name": "Jim",
-            "paintings": ["d", "b", "c"]
-        }
     ]
-
 }
 
 

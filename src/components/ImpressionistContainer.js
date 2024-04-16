@@ -4,9 +4,9 @@ import { Outlet, useOutletContext} from "react-router-dom"
 
 
 function ImpressionistContainer({impressionist}) {
-    // const impressionists = useOutletContext()
+    const impressionists = useOutletContext()
     
-    // console.log(impressionists)
+    console.log(impressionists)
 
     return (
         <article>
@@ -16,7 +16,8 @@ function ImpressionistContainer({impressionist}) {
                      alt={impressionist.artist}
                       width="100%" height="100%"
                 />
-           {/* <Outlet context={impressionists} /> */}
+           <Outlet context={impressionists} />
+           
         </article>
     )
 }

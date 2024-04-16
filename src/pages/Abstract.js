@@ -3,7 +3,9 @@ import { Outlet, useOutletContext  } from "react-router-dom"
 import AbstractContainer from "../components/AbstractContainer"
 
 function Abstract() {
-    const abstracts = useOutletContext()
+    
+    const contextObj = useOutletContext()
+    const abstracts = contextObj.abstracts
     console.log(abstracts)
     
     const abstractInfo = abstracts.map(abstract => 

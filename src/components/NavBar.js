@@ -19,14 +19,7 @@ function NavBar() {
              >
              Abstract
             </NavLink>
-            <br>
-            </br>
-            <NavLink
-             to="/artists"
-             className="navbar"
-             >
-             Artists
-            </NavLink>   
+        
         
         </nav>
     )

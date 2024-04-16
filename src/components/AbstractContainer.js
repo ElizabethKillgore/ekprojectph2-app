@@ -1,13 +1,12 @@
 import { Outlet, useOutletContext } from "react-router-dom"
 
 function AbstractContainer( {abstract}) {
-    // const abstracts = useOutletContext()
-
-    // console.log(abstracts)
+    const abstracts = useOutletContext()
 
     return (
         <article>
             <h4>{abstract.title}</h4>
+            <h5>{abstract.artist}  {abstract.date}</h5>
             <div>
                 <img src={abstract.image_url}
                      alt={abstract.artist}
@@ -17,7 +16,6 @@ function AbstractContainer( {abstract}) {
            {/* <Outlet context={abstracts} /> */}
         </article>
     )
-
 
 }
 

@@ -1,33 +1,22 @@
-
-import { useState, useEffect } from 'react'
-import { useParams } from "react-router-dom"
 import { Outlet, useOutletContext  } from "react-router-dom"
 import ImpressionistContainer from '../components/ImpressionistContainer'
 
 function Impressionist() {
 
-    const impressionists = useOutletContext()
-    console.log(impressionists)
-    // const [impressionists, setImpressionists] = useState([])
-    // const params = useParams
-    // const impressionistId = params.id
-
-    // useEffect(() => {
-    //     fetch("http://localhost:3000/impressionists")
-    //     .then(r => r.json())
-    //     .then((impressionistData) => setImpressionists(impressionistData))
-    //     .catch((error => console.error(error)))
-    // }, [impressionistId])
+    const contextObj = useOutletContext()
+    console.log(contextObj)
+    const impressionists = contextObj.impressionists
+    
 
     const impressionistInfo = impressionists.map(impressionist => 
          <ImpressionistContainer key={impressionist.id} impressionist={impressionist}/>)
     
 
    return (
-     
+
         <main> 
             <h3>Impressionist Paintings</h3>
-             {/* <Outlet context={impressionists}/> */}
+             <Outlet context={impressionists}/>
              {impressionistInfo}    
         </main>
    )
@@ -35,4 +24,3 @@ function Impressionist() {
 
 export default Impressionist
 
-//title={impressionist.title} artist={impressionist.artist} image_url={impressionist.image_url}
