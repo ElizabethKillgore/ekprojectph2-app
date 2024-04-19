@@ -3,6 +3,8 @@ import { Outlet, useOutletContext } from "react-router-dom"
 function AbstractContainer( {abstract}) {
     const abstracts = useOutletContext()
 
+    console.log(abstracts)
+
     return (
         <article>
             <h4>{abstract.title}</h4>
