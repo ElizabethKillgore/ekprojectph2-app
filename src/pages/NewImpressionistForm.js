@@ -41,7 +41,6 @@ function NewImpressionistForm() {
             <input type="text" image="image" value={image} placeholder="Image" onChange={(e) => setImage(e.target.value)}/>
             <button type="submit">Add Painting</button>
          </form>
-
         </div>
     )
 
