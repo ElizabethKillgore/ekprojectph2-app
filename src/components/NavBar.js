@@ -19,6 +19,14 @@ function NavBar() {
              >
              Abstract
             </NavLink>
+            <br>
+            </br>
+            <NavLink
+             to="/newPaintingForm"
+             className="navbar"
+             >
+             Submit Painting form
+             </NavLink>
         
         
         </nav>

@@ -1,53 +1,49 @@
 {
-    "impressionists": [
-        {
-            "id": 1,
-            "artist": "Berthe Morisot",
-            "title": "Woman At Her Toilette",
-            "date": 1880,
-            "image_url": "https://www.artic.edu/iiif/2/78c80988-6524-cec7-c661-a4c0a706d06f/full/843,/0/default.jpg"  
-        }, 
-        {
-            "id": 2,
-            "artist": "Edgar Degas",
-            "title": "The Millinery Shop",
-            "date": 1886,
-            "image_url": "https://www.artic.edu/iiif/2/6f513908-03cc-b974-633b-adfce56b7936/full/843,/0/default.jpg"  
-        },
-        {
-            "id": 3,
-            "artist": "Claude Monet",
-            "title": "Cliff Walk at Pourville",
-            "date": 1882,
-            "image_url": "https://www.artic.edu/iiif/2/b0effb1c-ff23-bbaa-f809-9fd94e31c1a0/full/843,/0/default.jpg"
-        }
-    ],
-
-    "abstracts": [
-        {
-            "id": 1,
-            "artist": "Gerhard Richter",
-            "title": "Ice (2)",
-            "date": 1989,
-            "image_url": "https://www.artic.edu/iiif/2/07783936-58fb-859d-9350-fb600510177a/full/843,/0/default.jpg"  
-        },
-        {
-            "id": 2,
-            "artist": "Vasily Kandinsky",
-            "title": "Painting with Troika",
-            "date": 1911,
-            "image_url": "https://www.artic.edu/iiif/2/08da4ff3-3bf6-9bbd-230c-492382034f3d/full/843,/0/default.jpg"
-        },
-        {
-            "id": 3,
-            "artist": "Paul Klee",
-            "title": "Sunset",
-            "date": 1930,
-            "image_url": "https://www.artic.edu/iiif/2/92da7102-0562-f4da-55f9-1d29828b20d7/full/843,/0/default.jpg" 
-        }
-    ]
+  "impressionists": [
+    {
+      "id": 1,
+      "artist": "Berthe Morisot",
+      "title": "Woman At Her Toilette",
+      "date": 1880,
+      "image": "https://www.artic.edu/iiif/2/78c80988-6524-cec7-c661-a4c0a706d06f/full/843,/0/default.jpg"
+    },
+    {
+      "id": 2,
+      "artist": "Edgar Degas",
+      "title": "The Millinery Shop",
+      "date": 1886,
+      "image": "https://www.artic.edu/iiif/2/6f513908-03cc-b974-633b-adfce56b7936/full/843,/0/default.jpg"
+    },
+    {
+      "id": 3,
+      "artist": "Claude Monet",
+      "title": "Cliff Walk at Pourville",
+      "date": 1882,
+      "image": "https://www.artic.edu/iiif/2/b0effb1c-ff23-bbaa-f809-9fd94e31c1a0/full/843,/0/default.jpg"
+    }
+  ],
+  
+  "abstracts": [
+    {
+      "id": 1,
+      "artist": "Gerhard Richter",
+      "title": "Ice (2)",
+      "date": 1989,
+      "image": "https://www.artic.edu/iiif/2/07783936-58fb-859d-9350-fb600510177a/full/843,/0/default.jpg"
+    },
+    {
+      "id": 2,
+      "artist": "Vasily Kandinsky",
+      "title": "Painting with Troika",
+      "date": 1911,
+      "image": "https://www.artic.edu/iiif/2/08da4ff3-3bf6-9bbd-230c-492382034f3d/full/843,/0/default.jpg"
+    },
+    {
+      "id": 3,
+      "artist": "Paul Klee",
+      "title": "Sunset",
+      "date": 1930,
+      "image": "https://www.artic.edu/iiif/2/92da7102-0562-f4da-55f9-1d29828b20d7/full/843,/0/default.jpg"
+    }
+  ]
 }
-
-
-
-

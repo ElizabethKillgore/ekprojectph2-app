@@ -12,7 +12,7 @@ function ImpressionistContainer({impressionist}) {
         <article>
             <h4>{impressionist.title}</h4>
             <h5>{impressionist.artist}  {impressionist.date}</h5>
-                <img src={impressionist.image_url}
+                <img src={impressionist.image}
                      alt={impressionist.artist}
                       width="100%" height="100%"
                 />

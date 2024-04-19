@@ -24,3 +24,35 @@ article {
   box-sizing: border-box;
   padding: 5px;
 }
+
+button {
+  padding: 0.25rem 1rem;
+  font-family: inherit;
+  border: none;
+  cursor: pointer;
+}
+
+button.primary {
+  background-color: var(--blue);
+  color: white;
+}
+
+.new-painting-form {
+  padding: 2rem 1rem;
+  margin: 2rem 0;
+  background-color:lightcyan;
+}
+
+.new-painting-form form {
+  display: flex;
+  justify-content: center;
+}
+
+.new-painting-form input {
+  margin-right: 2rem;
+  flex: 1;
+}
+
+.new-painting-form button {
+  width: 150px;
+}

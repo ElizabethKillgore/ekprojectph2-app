@@ -20,6 +20,10 @@ function App() {
         .then(r => r.json())
         .then((abstracts) => setAbstracts(abstracts))
     }, [])
+
+    function handleAddPainting(newPainting) {
+        setImpressionists([...impressionists, newPainting])
+         }
     
 return (
     <div className="App">
@@ -27,7 +31,7 @@ return (
         <header>
             <NavBar />
         </header>
-        <Outlet context={{impressionists: impressionists, abstracts: abstracts}} /> 
+        <Outlet context={{impressionists: impressionists, abstracts: abstracts}} handleAddPainting={handleAddPainting} />  
         
     </div>
   );

@@ -2,6 +2,7 @@ import App from "./App"
 import ErrorPage from "./pages/ErrorPage"
 import Impressionist from "./pages/Impressionist"
 import Abstract from "./pages/Abstract"
+import NewPaintingForm from "./pages/NewPaintingForm"
 
 
 const routes = [
@@ -18,8 +19,13 @@ const routes = [
         {
             path: "/abstract",
             element: <Abstract />
+        },
+        {
+            path: "/newPaintingForm",
+            element: <NewPaintingForm />
         }
-
+    
+        
         ]
 
     
