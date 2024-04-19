@@ -23,6 +23,10 @@ function App() {
     function handleImpressionistPainting(newPainting) {
         setImpressionists([...impressionists, newPainting])
          }
+
+    function handleAbstractPainting(newPainting) {
+        setAbstracts([...abstracts, newPainting])
+    }
     
 return (
     <div className="App">
@@ -30,7 +34,7 @@ return (
         <header>
             <NavBar />
         </header>
-        <Outlet context={{impressionists: impressionists, abstracts: abstracts, handleImpressionistPainting: handleImpressionistPainting}}  />  
+        <Outlet context={{impressionists: impressionists, abstracts: abstracts, handleImpressionistPainting: handleImpressionistPainting, handleAbstractPainting: handleAbstractPainting}}  />  
         
     </div>
   );
