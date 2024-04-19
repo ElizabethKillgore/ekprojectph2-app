@@ -1,6 +1,4 @@
-
 import { Outlet, useOutletContext} from "react-router-dom"
-
 
 
 function ImpressionistContainer({impressionist}) {
