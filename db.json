@@ -22,41 +22,6 @@
       "image": "https://www.artic.edu/iiif/2/b0effb1c-ff23-bbaa-f809-9fd94e31c1a0/full/843,/0/default.jpg"
     },
     {
-      "artist": "Liz",
-      "title": "Hi",
-      "date": "1960",
-      "image": "",
-      "id": 4
-    },
-    {
-      "artist": "John",
-      "title": "Bye",
-      "date": "1970",
-      "image": "",
-      "id": 5
-    },
-    {
-      "artist": "Joe",
-      "title": "Hello",
-      "date": "1940",
-      "image": "",
-      "id": 6
-    },
-    {
-      "artist": "Jerry",
-      "title": "Sew",
-      "date": "1990",
-      "image": "",
-      "id": 7
-    },
-    {
-      "artist": "Elizabeth",
-      "title": "GoodBye",
-      "date": "2023",
-      "image": "",
-      "id": 8
-    },
-    {
       "artist": "Claude Monet",
       "title": "Water Lilies",
       "date": "1906",
@@ -85,20 +50,6 @@
       "title": "Sunset",
       "date": 1930,
       "image": "https://www.artic.edu/iiif/2/92da7102-0562-f4da-55f9-1d29828b20d7/full/843,/0/default.jpg"
-    },
-    {
-      "artist": "Mel",
-      "title": "I'm here",
-      "date": "2000",
-      "image": "",
-      "id": 4
-    },
-    {
-      "artist": "Anton",
-      "title": "This Is It",
-      "date": "1929",
-      "image": "",
-      "id": 5
     }
   ]
 }
