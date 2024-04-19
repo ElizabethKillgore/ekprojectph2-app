@@ -48,6 +48,13 @@
       "date": "1990",
       "image": "",
       "id": 7
+    },
+    {
+      "artist": "Elizabeth",
+      "title": "GoodBye",
+      "date": "2023",
+      "image": "",
+      "id": 8
     }
   ],
   "abstracts": [
@@ -78,6 +85,13 @@
       "date": "2000",
       "image": "",
       "id": 4
+    },
+    {
+      "artist": "Anton",
+      "title": "This Is It",
+      "date": "1929",
+      "image": "",
+      "id": 5
     }
   ]
 }
