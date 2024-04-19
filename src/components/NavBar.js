@@ -22,7 +22,7 @@ function NavBar() {
             <br>
             </br>
             <NavLink
-             to="/newPaintingForm"
+             to="/newImpressionistForm"
              className="navbar"
              >
              Submit Painting form

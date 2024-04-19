@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 import { Outlet, useOutletContext } from "react-router-dom"
 
-function NewPaintingForm() {
+function NewImpressionistForm() {
     const [artist, setArtist] = useState("")
     const [title, setTitle] = useState("")
     const [date, setDate] = useState("")
@@ -47,4 +47,4 @@ function NewPaintingForm() {
 
 }
 
-export default NewPaintingForm
+export default NewImpressionistForm
