@@ -32,7 +32,7 @@ function NewImpressionistForm() {
 
     return (
         <div className="new-painting-form" onSubmit={handleSubmit} >
-            <h2>New Painting</h2>
+            <h2>New Impressionist Painting</h2>
             <Outlet />
          <form>
             <input type="text" artist="artist" value={artist} placeholder="Artist" onChange={(e) => setArtist(e.target.value)}/>
