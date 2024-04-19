@@ -19,15 +19,15 @@ function NewImpressionistForm() {
             image: image
         }
     
-    fetch("http://localhost:3000/impressionists", {
-        method: "POST",
-        headers: {
+        fetch("http://localhost:3000/impressionists", {
+            method: "POST",
+            headers: {
             "Content-Type": "application/json",
-          },
-          body: JSON.stringify(paintingData)
-    })
-    .then((r) => r.json())
-    .then((newPainting) => contextObj.handleImpressionistPainting(newPainting))
+            },
+            body: JSON.stringify(paintingData)
+        })
+        .then((r) => r.json())
+        .then((newPainting) => contextObj.handleImpressionistPainting(newPainting))
     }
 
     return (

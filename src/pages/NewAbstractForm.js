@@ -8,11 +8,11 @@ function NewAbstractForm() {
     const [image, setImage] = useState("")
 
     const contextObj = useOutletContext()
-    console.log(contextObj.handleAbstractPainting)
+    
 
     function handleSubmit(e) {
         e.preventDefault() 
-        const paintingData = {
+        const abstractPaintingData = {
             artist: artist,
             title: title,
             date: date,
@@ -24,7 +24,7 @@ function NewAbstractForm() {
             headers: {
             "Content-Type": "application/json", 
             },
-            body: JSON.stringify(paintingData)
+            body: JSON.stringify(abstractPaintingData)
         })
             .then((r) => r.json())
             .then((newPainting) => contextObj.handleAbstractPainting(newPainting))
@@ -34,7 +34,7 @@ function NewAbstractForm() {
     return (
         <div className="new-painting-form" onSubmit={handleSubmit}>
             <h2>New Abstract Painting</h2>
-        <Outlet />
+            <Outlet />
           <form>
             <input type="text" artist="artist" value={artist} placeholder="Artist" onChange={(e) => setArtist(e.target.value)}/>
             <input type="text" title="title" value={title} placeholder="Title" onChange={(e) => setTitle(e.target.value)}/>
