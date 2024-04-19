@@ -8,7 +8,7 @@ function NewImpressionistForm() {
     const [image, setImage] = useState("")
 
     const contextObj = useOutletContext()
-    console.log(contextObj.handleAddPainting)
+    console.log(contextObj.handleImpressionistPainting)
 
     function handleSubmit(e) {
         e.preventDefault() 
@@ -27,7 +27,7 @@ function NewImpressionistForm() {
           body: JSON.stringify(paintingData)
     })
     .then((r) => r.json())
-    .then((newPainting) => contextObj.handleAddPainting(newPainting))
+    .then((newPainting) => contextObj.handleImpressionistPainting(newPainting))
     }
 
     return (
