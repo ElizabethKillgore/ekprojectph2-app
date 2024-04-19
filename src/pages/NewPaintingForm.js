@@ -7,7 +7,7 @@ function NewPaintingForm({handleAddPainting}) {
     const [date, setDate] = useState("")
     const [image, setImage] = useState("")
 
-    const contextObj = useOutletContext()
+    // const contextObj = useOutletContext()
     
 
     function handleSubmit(e) {

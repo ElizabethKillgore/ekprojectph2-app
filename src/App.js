@@ -31,7 +31,7 @@ return (
         <header>
             <NavBar />
         </header>
-        <Outlet context={{impressionists: impressionists, abstracts: abstracts}} handleAddPainting={handleAddPainting} />  
+        <Outlet context={{impressionists: impressionists, abstracts: abstracts}} handleAddPainting={handleAddPainting} setImpressionists={setImpressionists} />  
         
     </div>
   );

@@ -20,9 +20,22 @@
       "title": "Cliff Walk at Pourville",
       "date": 1882,
       "image": "https://www.artic.edu/iiif/2/b0effb1c-ff23-bbaa-f809-9fd94e31c1a0/full/843,/0/default.jpg"
+    },
+    {
+      "artist": "Liz",
+      "title": "Hi",
+      "date": "1960",
+      "image": "",
+      "id": 4
+    },
+    {
+      "artist": "John",
+      "title": "Bye",
+      "date": "1970",
+      "image": "",
+      "id": 5
     }
   ],
-  
   "abstracts": [
     {
       "id": 1,
