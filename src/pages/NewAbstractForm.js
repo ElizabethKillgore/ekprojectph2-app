@@ -18,9 +18,21 @@ function NewAbstractForm() {
             date: date,
             image: image
         }
-    }
+
+        fetch("http://localhost:3000/abstracts", {
+            method: "POST",
+            headers: {
+            "Content-Type": "application/json", 
+            },
+            body: JSON.stringify(paintingData)
+        })
+            .then((r) => r.json())
+            .then((newPainting) => contextObj.handleAbstractPainting(newPainting))
+        }
+        
+
     return (
-        <div className="new-painting-form">
+        <div className="new-painting-form" onSubmit={handleSubmit}>
             <h2>New Abstract Painting</h2>
         <Outlet />
           <form>
