@@ -25,7 +25,15 @@ function NavBar() {
              to="/newImpressionistForm"
              className="navbar"
              >
-             Submit Painting form
+             Submit Impressionist form
+             </NavLink>
+             <br>
+             </br>
+             <NavLink
+             to="/newAbstractForm"
+             className="navbar"
+             >
+             Submit Abstract form
              </NavLink>
         
         
