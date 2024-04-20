@@ -50,6 +50,13 @@
       "title": "Sunset",
       "date": 1930,
       "image": "https://www.artic.edu/iiif/2/92da7102-0562-f4da-55f9-1d29828b20d7/full/843,/0/default.jpg"
+    },
+    {
+      "artist": "Vasily Kandinsky",
+      "title": "Painting with Green Center",
+      "date": "1913",
+      "image": "https://www.artic.edu/iiif/2/c68f33ec-feb1-5277-334b-b71ac15ae394/full/843,/0/default.jpg",
+      "id": 4
     }
   ]
 }
