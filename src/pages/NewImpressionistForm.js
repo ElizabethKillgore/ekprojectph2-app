@@ -8,7 +8,6 @@ function NewImpressionistForm() {
     const [image, setImage] = useState("")
 
     const contextObj = useOutletContext()
-    console.log(contextObj.handleImpressionistPainting)
 
     function handleSubmit(e) {
         e.preventDefault() 
@@ -43,7 +42,6 @@ function NewImpressionistForm() {
          </form>
         </div>
     )
-
 }
 
 export default NewImpressionistForm

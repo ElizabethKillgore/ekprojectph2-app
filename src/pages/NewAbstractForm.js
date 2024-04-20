@@ -9,7 +9,6 @@ function NewAbstractForm() {
 
     const contextObj = useOutletContext()
     
-
     function handleSubmit(e) {
         e.preventDefault() 
         const abstractPaintingData = {
@@ -30,7 +29,6 @@ function NewAbstractForm() {
             .then((newPainting) => contextObj.handleAbstractPainting(newPainting))
         }
         
-
     return (
         <div className="new-painting-form" onSubmit={handleSubmit}>
             <h2>New Abstract Painting</h2>
@@ -44,8 +42,6 @@ function NewAbstractForm() {
           </form>
         </div>
     )
-
-
 }
 
 export default NewAbstractForm

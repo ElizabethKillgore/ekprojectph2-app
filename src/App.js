@@ -3,7 +3,6 @@ import { Outlet } from "react-router-dom"
 import NavBar from "./components/NavBar"
 import './App.css';
 
-
 function App() {
     const [impressionists, setImpressionists] = useState([])
     const [abstracts, setAbstracts] = useState([])
@@ -34,8 +33,7 @@ return (
         <header>
             <NavBar />
         </header>
-        <Outlet context={{impressionists: impressionists, abstracts: abstracts, handleImpressionistPainting: handleImpressionistPainting, handleAbstractPainting: handleAbstractPainting}}  />  
-        
+        <Outlet context={{impressionists: impressionists, abstracts: abstracts, handleImpressionistPainting: handleImpressionistPainting, handleAbstractPainting: handleAbstractPainting}} />      
     </div>
   );
 }

@@ -14,8 +14,7 @@ function ImpressionistContainer({impressionist}) {
                      alt={impressionist.artist}
                      width="100%" height="100%"
                 />
-           <Outlet context={impressionists}  />
-            
+           <Outlet context={impressionists} />    
         </article>
     )
 }

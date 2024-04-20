@@ -30,8 +30,6 @@ const routes = [
         }
         
         ]
-
-    
     }
 ]
 

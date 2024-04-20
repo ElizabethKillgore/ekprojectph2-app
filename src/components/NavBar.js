@@ -26,7 +26,7 @@ function NavBar() {
              className="navbar"
              >
              Submit Impressionist form
-             </NavLink>
+            </NavLink>
              <br>
              </br>
              <NavLink
@@ -34,9 +34,8 @@ function NavBar() {
              className="navbar"
              >
              Submit Abstract form
-             </NavLink>
-        
-        
+            </NavLink>
+
         </nav>
     )
 }
