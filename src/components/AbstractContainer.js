@@ -16,8 +16,6 @@ function AbstractContainer( {abstract}) {
            <Outlet context={abstracts} />
         </article>
     )
-
 }
-
 
 export default AbstractContainer
