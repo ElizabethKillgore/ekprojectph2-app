@@ -1,21 +1,21 @@
-import { Outlet, useOutletContext  } from "react-router-dom"
-import ImpressionistContainer from '../components/ImpressionistContainer'
+import { useOutletContext } from "react-router-dom"
+import ImpressionistCard from '../components/ImpressionistCard'
 
 function Impressionist() {
-     const contextObj = useOutletContext()
-     console.log(contextObj)
-     const impressionists = contextObj.impressionists
+
+    const contextObj = useOutletContext()
+    console.log(contextObj)
+    const {impressionists} = contextObj
     
-     const impressionistInfo = impressionists.map(impressionist => 
-         <ImpressionistContainer key={impressionist.id} impressionist={impressionist}/>)
+    const impressionistInfo = impressionists.map(impressionist => 
+        <ImpressionistCard key={impressionist.id} impressionist={impressionist}/>)
     
-     return (
+    return (
         <main> 
             <h3>Impressionist Paintings</h3>
-             <Outlet context={impressionists}  />
              {impressionistInfo}    
         </main>
-     )
+    )
 }
 
 export default Impressionist

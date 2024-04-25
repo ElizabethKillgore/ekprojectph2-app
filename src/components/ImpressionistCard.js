@@ -1,11 +1,7 @@
-import { Outlet, useOutletContext} from "react-router-dom"
+import React from "react-router-dom"
 
-
-function ImpressionistContainer({impressionist}) {
-    const impressionists = useOutletContext()
+function ImpressionistCard({impressionist}) {
     
-    console.log(impressionists)
-
     return (
         <article>
             <h4>{impressionist.title}</h4>
@@ -13,10 +9,9 @@ function ImpressionistContainer({impressionist}) {
                 <img src={impressionist.image}
                      alt={impressionist.artist}
                      width="100%" height="100%"
-                />
-           <Outlet context={impressionists} />    
+                /> 
         </article>
     )
 }
 
-export default ImpressionistContainer
+export default ImpressionistCard

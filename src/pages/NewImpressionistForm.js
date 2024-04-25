@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-import { Outlet, useOutletContext } from "react-router-dom"
+import { useOutletContext } from "react-router-dom"
 
 function NewImpressionistForm() {
     const [artist, setArtist] = useState("")
@@ -8,6 +8,7 @@ function NewImpressionistForm() {
     const [image, setImage] = useState("")
 
     const contextObj = useOutletContext()
+    const handleImpressionistPainting = contextObj.handleImpressionistPainting
 
     function handleSubmit(e) {
         e.preventDefault() 
@@ -26,14 +27,13 @@ function NewImpressionistForm() {
             body: JSON.stringify(paintingData)
         })
         .then((r) => r.json())
-        .then((newPainting) => contextObj.handleImpressionistPainting(newPainting))
+        .then((newPainting) => handleImpressionistPainting(newPainting))
     }
 
     return (
-        <div className="new-painting-form" onSubmit={handleSubmit} >
+        <div className="new-painting-form"  >
             <h2>New Impressionist Painting</h2>
-            <Outlet />
-         <form>
+         <form onSubmit={handleSubmit} >
             <input type="text" artist="artist" value={artist} placeholder="Artist" onChange={(e) => setArtist(e.target.value)}/>
             <input type="text" title="title" value={title} placeholder="Title" onChange={(e) => setTitle(e.target.value)}/>
             <input type="text" date="date" value={date} placeholder="Date" onChange={(e) => setDate(e.target.value)}/>

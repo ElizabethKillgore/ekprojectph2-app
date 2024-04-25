@@ -1,23 +1,23 @@
 import React from 'react'
-import { Outlet, useOutletContext  } from "react-router-dom"
-import AbstractContainer from "../components/AbstractContainer"
+import { useOutletContext } from "react-router-dom"
+import AbstractCard from "../components/AbstractCard"
 
 function Abstract() {
     
     const contextObj = useOutletContext()
-    const abstracts = contextObj.abstracts
+    const {abstracts} = contextObj
     console.log(abstracts)
     
     const abstractInfo = abstracts.map(abstract => 
-        <AbstractContainer key={abstract.id} abstract={abstract}/>)
+        <AbstractCard key={abstract.id} abstract={abstract}/>)
 
-   return ( 
-    <main>
-        <h3>Abstract Paintings</h3>
-             <Outlet context={abstracts}/>
-             {abstractInfo}  
-    </main>
-   )
+    return ( 
+        <main>
+            <h3>Abstract Paintings</h3>
+                {abstractInfo}  
+        </main>
+    )
 }
 
 export default Abstract
+

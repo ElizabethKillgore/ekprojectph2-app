@@ -1,9 +1,6 @@
-import { Outlet, useOutletContext } from "react-router-dom"
+import React from "react-router-dom"
 
-function AbstractContainer( {abstract}) {
-    const abstracts = useOutletContext()
-
-    console.log(abstracts)
+function AbstractCard( {abstract}) {
 
     return (
         <article>
@@ -13,9 +10,9 @@ function AbstractContainer( {abstract}) {
                      alt={abstract.artist}
                      width="100%" height="100%"
                 />
-           <Outlet context={abstracts} />
+           
         </article>
     )
 }
 
-export default AbstractContainer
+export default AbstractCard
