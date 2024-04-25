@@ -48,7 +48,7 @@ fetch("https://api.artic.edu/api/v1/artworks/search?q=kandinsky&fields=id,title,
 .then(r => r.json())
 .then(data => console.log(data))
 
-fetch ("https://api.artic.edu/api/v1/artworks/search?q=klee&fields=id,title,date_display,image_id")
-.then(r => r.json())
-.then(data => console.log(data))
+// fetch ("https://api.artic.edu/api/v1/artworks/search?q=klee&fields=id,title,date_display,image_id")
+// .then(r => r.json())
+// .then(data => console.log(data))
 
